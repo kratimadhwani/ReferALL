@@ -8,3 +8,15 @@ export default defineConfig({
   tailwindcss(),
   ],
 })
+
+// tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        'custom-blue': 'oklch(54.6% 0.245 262.881)',
+      }
+    }
+  },
+  // ... other config
+}
